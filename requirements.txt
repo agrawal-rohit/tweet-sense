@@ -195,9 +195,7 @@ terminado==0.8.1
 testpath==0.3.1
 tf-estimator-nightly==1.14.0.dev2019030115
 tflearn==0.3.2
-Theano==1.0.2+2.gc449c8699
 toolz==0.9.0
-torchvision==0.2.0
 tornado==5.1
 tqdm==4.19.5
 traitlets==4.3.2
