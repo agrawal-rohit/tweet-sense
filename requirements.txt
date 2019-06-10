@@ -218,7 +218,6 @@ win-inet-pton==1.0.1
 win-unicode-console==0.5
 wincertstore==0.2
 wrapt==1.10.11
-xgboost==0.72
 xlrd==1.1.0
 XlsxWriter==1.0.7
 xlwings==0.11.8
