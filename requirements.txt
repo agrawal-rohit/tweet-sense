@@ -1,3 +1,4 @@
+numpy==1.14.5
 Babel==2.6.0
 backcall==0.1.0
 backports.functools-lru-cache==1.5
@@ -107,7 +108,6 @@ nose==1.3.7
 notebook==5.6.0
 numba==0.39.0
 numexpr==2.6.7
-numpy==1.14.5
 numpydoc==0.8.0
 oauthlib==3.0.1
 odo==0.5.1
