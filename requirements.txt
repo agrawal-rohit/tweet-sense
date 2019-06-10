@@ -129,7 +129,6 @@ PyMsgBox==1.0.6
 pyodbc==4.0.24
 pyOpenSSL==18.0.0
 pyparsing==2.2.0
-pypiwin32==220
 PyScreeze==0.1.13
 PySocks==1.6.8
 pytest==3.7.2
