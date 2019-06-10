@@ -120,7 +120,6 @@ pydot==1.2.4
 pyflakes==2.0.0
 pyglet==1.2.0
 Pygments==2.2.0
-pygpu==0.7.6
 PyHamcrest==1.9.0
 PyJWT==1.7.1
 pylint==2.1.1
