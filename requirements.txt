@@ -155,7 +155,6 @@ rsa==4.0
 ruamel-yaml==0.15.46
 s3transfer==0.2.0
 sacrebleu==1.2.11
-scikit-fuzzy==0.4.0
 scikit-image==0.13.1
 scikit-learn==0.19.2
 scikit-plot==0.3.7
