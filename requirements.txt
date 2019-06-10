@@ -83,7 +83,6 @@ numba==0.39.0
 numexpr==2.6.7
 numpydoc==0.8.0
 oauthlib==3.0.1
-odo==0.5.1
 olefile==0.45.1
 opencv-python==3.4.0
 openpyxl==2.5.5
