@@ -126,7 +126,6 @@ pylint==2.1.1
 pymc3==3.5
 Pympler==0.5
 PyMsgBox==1.0.6
-pyodbc==4.0.24
 pyOpenSSL==18.0.0
 pyparsing==2.2.0
 PyScreeze==0.1.13
