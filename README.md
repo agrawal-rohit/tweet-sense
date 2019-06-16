@@ -6,7 +6,7 @@ This is a web app which can be used to **analyze users' sentiments across Twitte
 
 The server pulls tweets using **tweepy** and performs inference using Keras. It also pulls data from the **Wikipedia API** based the hashtag chosen to display a short description. As part of the analysis, I also added few examples of the tweets and their predicted sentiments. A kernel for another sentiment classification using a CNN + 1D pooling can be found [here](https://www.kaggle.com/thatawkwardguy/twitter-sentiment-classification-using-cnns)
 
-![Untitled Diagram (2)](https://user-images.githubusercontent.com/29514438/59568671-7cd25300-909b-11e9-9972-d02061745447.jpg)
+![Untitled Diagram (6)](https://user-images.githubusercontent.com/29514438/59569258-5f55b700-90a4-11e9-8167-60f53a765c02.jpg)
 
 ## How to Install and use
 - clone the repository
