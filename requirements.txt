@@ -18,4 +18,4 @@ requests==2.19.1
 requests-oauthlib==1.2.0
 tensorflow==1.11.0rc2
 tweepy==3.7.0
-Werkzeug==0.14.1
+Werkzeug==0.15.3
