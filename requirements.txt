@@ -16,6 +16,6 @@ Markdown==2.6.11
 MarkupSafe==1.0
 requests==2.19.1
 requests-oauthlib==1.2.0
-tensorflow==1.11.0rc2
+tensorflow==1.15.0
 tweepy==3.7.0
 Werkzeug==0.14.1
