@@ -1,0 +1,19 @@
+version: "2"
+
+services:
+  server:
+    build: ./server/
+    command: >
+      gunicorn -b 0.0.0.0:8000 --access-logfile - --reload "main:app"
+    volumes:
+      - ./server:/app
+    ports:
+      - 8000:8000
+
+  client:
+    build: ./client/
+    command: npm run start
+    volumes:
+      - ./client:/app
+    ports:
+      - 3000:3000
