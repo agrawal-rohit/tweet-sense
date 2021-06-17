@@ -5,13 +5,14 @@ itsdangerous==1.1.0
 Jinja2==2.11.2
 MarkupSafe==1.1.1
 Werkzeug==1.0.1
+h5py==2.10.0
 
 # Machine Learning libs
 Keras==2.2.4
 Keras-Preprocessing==1.0.5
 requests==2.19.1
 requests-oauthlib==1.2.0
-tensorflow
+tensorflow==1.15
 tweepy==3.7.0
 
 # Extensions

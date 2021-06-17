@@ -88,7 +88,7 @@ def analyzehashtag():
 @app.route('/gettweets', methods=['GET'])
 def gettweets():
     tweets = []
-    for tweet in tweepy.Cursor(api.search,q="#" + request.args.get("text") + " -filter:retweets",rpp=5,lang="en", tweet_mode='extended').items(50):
+    for tweet in tweepy.Cursor(api.search,q=request.args.get("text") + " -filter:retweets",rpp=5,lang="en", tweet_mode='extended').items(10):
         temp = {}
         temp["text"] = tweet.full_text
         temp["username"] = tweet.user.screen_name

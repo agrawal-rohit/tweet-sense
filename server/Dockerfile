@@ -1,7 +1,7 @@
 ###########
 # BUILDER #
 ###########
-FROM python:3.8-slim-buster as compile-image
+FROM python:3.6-slim-buster as compile-image
 
 ## install dependencies
 RUN apt-get update
@@ -11,6 +11,7 @@ RUN apt-get upgrade -y
 ENV VIRTUAL_ENV=/opt/venv
 RUN python3 -m venv $VIRTUAL_ENV
 ENV PATH="$VIRTUAL_ENV/bin:$PATH"
+RUN pip install --upgrade pip
 RUN pip install psycopg2-binary
 
 # install system dependencies
@@ -28,7 +29,7 @@ RUN pip install -r requirements.txt
 #########
 # FINAL #
 #########
-FROM python:3.8-slim-buster
+FROM python:3.6-slim-buster
 
 ## install dependencies
 RUN apt-get update

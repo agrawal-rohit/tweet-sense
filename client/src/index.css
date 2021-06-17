@@ -1,88 +1,107 @@
-@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;800&display=swap");
 
-body{
-    background-color: #f9f9f9;
+body {
+  background-color: #fbfbfb;
 }
 
-.hashtag{
-    border: none;
-    border-radius: 5px;
-    box-shadow: 3px 3px 8px 0px #c1c1c1;
+.app-title {
+  font-family: "Poppins";
+  font-weight: 800;
+  font-size: 3vw;
 }
 
-.hashtag:focus{
-    border: none;
-    box-shadow: none;
-    box-shadow: 1px 1px 3px 0px #c1c1c1;
+.hashtag {
+  border: none;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px 0px #c1c1c1;
 }
 
-.hashtag-icon{
-    border: none;
-    border-radius: 0px;
-    font-size: 16px;
-    font-family: "Montserrat";
-    box-shadow: 3px 3px 8px 0px #c1c1c1;
+.hashtag:focus {
+  border: none;
+  box-shadow: none;
+  box-shadow: 1px 1px 3px 0px #c1c1c1;
 }
 
-.submit{
-    background-color: #00aced;
-    border: none;
-    border-radius: 0px;
-    color: white;
-    font-size: 16px;
-    padding: 8px 20px;
-    font-family: "Montserrat"    
+.hashtag-icon {
+  border: none;
+  border-radius: 0px;
+  font-size: 16px;
+  font-family: "Poppins";
+  box-shadow: 3px 3px 8px 0px #c1c1c1;
 }
 
-.submit:hover{
-    background-color: #0084b4;
+.submit {
+  background-color: #3949ab;
+  border: none;
+  border-radius: 0px;
+  color: white;
+  font-size: 16px;
+  padding: 8px 20px;
+  border-radius: 5px;
+  font-family: "Poppins";
+  font-weight: 500;
 }
 
-.submit:active{
-    border: none;
-    box-shadow: none;
-    background-color: #0084b4;
+.submit:hover {
+  background-color: #303f9f;
 }
 
-.tweets{
-    background-color: white;
-    border-radius: 5px;
-    box-shadow: 3px 3px 8px 0px #ededed;
-    padding: 5px 15px;
-    margin-bottom: 20px;
+.submit:active {
+  border: none;
+  box-shadow: none;
+  background-color: #303f9f;
 }
 
-.tweets h2{
-    color: #0084b4;
-    font-size: 16px;
+.tweets {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: 3px 3px 8px 0px #ededed;
+  padding: 5px 15px;
+  margin-bottom: 20px;
 }
 
-.tweets h3{
-    font-size: 14px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.tweets h2 {
+  color: #303f9f;
+  font-size: 16px;
+  margin-top: 10px;
+  font-family: "Poppins";
 }
 
-.footer{
-    background-color: #f9f9f9;
-    height: 40px;
-    width: 100%;
-    padding: 8px 0px 0px 0px;
-    position: fixed;
-    bottom: 0px;
-    text-align: center;
+.tweets h3 {
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-family: "Poppins";
 }
 
-.progressheader{
-    margin-top: 10px;
-    font-size: 14px;
-    color: #00aced;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+.footer {
+  background-color: #f9f9f9;
+  height: 40px;
+  width: 100%;
+  padding: 8px 0px 0px 0px;
+  position: fixed;
+  bottom: 0px;
+  text-align: center;
 }
 
-.heading_desc{
-    font-family: "Montserrat";
-    font-weight: 300;
-    opacity: 0.6;
+.loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.desc_content {
+  font-family: "Poppins";
+  font-size: 18px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.desc_heading {
+  font-family: "Poppins";
+  font-size: 22px;
+  font-weight: 600;
 }
