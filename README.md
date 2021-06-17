@@ -21,6 +21,11 @@ The server pulls tweets using **tweepy** and performs inference using Keras. It 
 3. Open `http://localhost:5000` in your browser to access the app
 
 ### Training the model
+_(Note: If you have a GPU in your system, I suggest that you train the CNN model. The LSTM model takes longer to train due to its sequential nature, and offer relatively similar performance)_
 
+#### CNN Model
+1. Copy and run the [Kaggle Notebook](https://www.kaggle.com/thatawkwardguy/twitter-sentiment-classification-using-cnns).
+
+#### LSTM Model
 1. Download the [Kaggle Sentiment140 dataset](https://www.kaggle.com/kazanova/sentiment140) and put it in the root folder as `sentiment140.csv`.
-2. Run the code blocks given in the Jupyter Notebook
+3. Run the code blocks given in the `Twitter Sentiment Analysis.ipynb`
