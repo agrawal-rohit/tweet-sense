@@ -16,4 +16,4 @@ tensorflow==1.15
 tweepy==3.7.0
 
 # Extensions
-Flask-Cors==3.0.3
+Flask-Cors==3.0.9
