@@ -14,18 +14,21 @@ The server pulls tweets using **tweepy** and performs inference using Keras. It 
 
 ### Running the application
 
-1. Download the [trained model](https://drive.google.com/file/d/1ckK5m4JysFKtBuC9yCnEaHe6cxOgXlG8/view?usp=sharing) and put into the `server/main` folder <br>(**Note:** _This is the CNN model. f you want use the LSTM model, you'll need to follow the training steps below and put the saved model in `server/main`. Also, don't forget to change the loaded model name in `server/main/init.py`_ )
+1. Download the [trained model](https://drive.google.com/file/d/1ckK5m4JysFKtBuC9yCnEaHe6cxOgXlG8/view?usp=sharing) and put into the `server/main` folder <br>(**Note:** _This is the CNN model. f you want use the LSTM model, you'll need to follow the [training steps](#training-the-model) below and put the saved model in `server/main`. Also, don't forget to change the loaded model name in `server/main/init.py`_ )
+2. Get your Twitter API credentials through Keys and Tokens tab under the [Twitter Developer Portal Projects & Apps page](https://developer.twitter.com/en/portal/projects-and-apps) and add them to the `/server/main/config.py` file.
+3. Run `docker-compose up --build` in the terminal from the root folder <br> (**Note:** _Ensure that you have Docker installed_)
 
-2. Run `docker-compose up --build` in the terminal from the root folder <br> (**Note:** _Ensure that you have Docker installed_)
-
-3. Open `http://localhost:5000` in your browser to access the app
+4. Open `http://localhost:5000` in your browser to access the app
 
 ### Training the model
+
 _(Note: If you have a GPU in your system, I suggest that you train the CNN model. The LSTM model takes longer to train due to its sequential nature, and offer relatively similar performance)_
 
 #### CNN Model
+
 1. Copy and run the [Kaggle Notebook](https://www.kaggle.com/thatawkwardguy/twitter-sentiment-classification-using-cnns).
 
 #### LSTM Model
+
 1. Download the [Kaggle Sentiment140 dataset](https://www.kaggle.com/kazanova/sentiment140) and put it in the root folder as `sentiment140.csv`.
-3. Run the code blocks given in the `Twitter Sentiment Analysis.ipynb`
+2. Run the code blocks given in the `Twitter Sentiment Analysis.ipynb`
