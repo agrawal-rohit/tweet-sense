@@ -1,19 +1,19 @@
-certifi==2020.6.20
-Flask==1.1.2
-gunicorn==20.0.4
-itsdangerous==1.1.0
-Jinja2==2.11.3
-MarkupSafe==1.1.1
-Werkzeug==1.0.1
-h5py==2.10.0
+certifi
+Flask
+gunicorn
+itsdangerous
+Jinja2
+MarkupSafe
+Werkzeug
+h5py
 
 # Machine Learning libs
-Keras==2.2.4
-Keras-Preprocessing==1.0.5
-requests==2.20.0
-requests-oauthlib==1.2.0
-tensorflow==1.15
-tweepy==3.7.0
+Keras
+Keras-Preprocessing
+requests
+requests-oauthlib
+tensorflow
+tweepy
 
 # Extensions
-Flask-Cors==3.0.9
+Flask-Cors

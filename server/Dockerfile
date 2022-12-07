@@ -1,7 +1,7 @@
 ###########
 # BUILDER #
 ###########
-FROM python:3.6-slim-buster as compile-image
+FROM python:3.8-slim-buster as compile-image
 
 ## install dependencies
 RUN apt-get update
@@ -15,7 +15,7 @@ RUN pip install --upgrade pip
 RUN pip install psycopg2-binary
 
 # install system dependencies
-RUN pip install --upgrade pip && pip install pip-tools
+RUN pip install --upgrade pip setuptools && pip install pip-tools
 
 # Location of the source code
 ENV INSTALL_PATH /app     
@@ -29,7 +29,7 @@ RUN pip install -r requirements.txt
 #########
 # FINAL #
 #########
-FROM python:3.6-slim-buster
+FROM python:3.8-slim-buster
 
 ## install dependencies
 RUN apt-get update
