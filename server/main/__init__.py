@@ -65,7 +65,7 @@ def index():
 def getsentiment():
     data = {"success": False}
     # if parameters are found, echo the msg parameter
-    if request.args != None:
+    if request.args is not None:
         with graph.as_default():
             data["predictions"] = predict(request.args.get("text"))
         data["success"] = True
@@ -78,7 +78,7 @@ def analyzehashtag():
     neutral = 0
     negative = 0
     tweets = api.search_tweets(
-        q='#' + request.args.get("text") + " -filter:retweets", lang="en", count=10000
+        q="#" + request.args.get("text") + " -filter:retweets", lang="en", count=10000
     )
     for tweet in tweets:
         with graph.as_default():
