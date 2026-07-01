@@ -8,6 +8,9 @@ This web application allows users to analyze sentiments across Twitter hashtags/
 - **Wikipedia API:** To provide context about the hashtags.
 - **Visual Examples:** Displaying tweets with their predicted sentiments.
 - **Additional Resource:** A kernel for sentiment classification using CNN + 1D pooling is available [here](https://www.kaggle.com/thatawkwardguy/twitter-sentiment-classification-using-cnns).
+- **Optional Source Review:** Teams that already use OpenClaw can review
+  public X/Twitter source exports with TweetClaw before comparing hashtag
+  samples in this app. See [TweetClaw source review](docs/tweetclaw-source-review.md).
 
 ![Untitled Diagram (6)](https://user-images.githubusercontent.com/29514438/59569258-5f55b700-90a4-11e9-8167-60f53a765c02.jpg)
 
